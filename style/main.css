@@ -66,4 +66,7 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .logo-Adalab {
+    margin-left: 0px;
+  }
 }
