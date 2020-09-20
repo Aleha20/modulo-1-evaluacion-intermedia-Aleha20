@@ -10,6 +10,7 @@ body {
 }
 .container1 {
   width: 100%;
+  padding: 10px;
   background-color: white;
   position: fixed;
   display: flex;
@@ -67,21 +68,28 @@ body {
 }
 
 @media all and (min-width: 768px) {
+  .menu {
+    padding-right: 30px;
+  }
+  .logo-adalab {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
   .blog {
     padding-right: 10px;
+    padding-left: 10px;
   }
   .contact {
-    padding-right: 30px;
+    padding-right: 10px;
     padding-left: 10px;
+  }
+  .container1 {
+    padding-left: 30px;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .container2 {
     font-size: 40px;
-  }
-  .logo-Adalab {
-    margin-left: 0px;
-  }
-  .menu {
-    display: flex;
-    justify-content: flex-end;
   }
 }
