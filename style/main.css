@@ -10,6 +10,7 @@ body {
 }
 .container1 {
   width: 100%;
+  padding: 10px;
   background-color: white;
   position: fixed;
   display: flex;
@@ -20,10 +21,10 @@ body {
 
 .logo-Adalab {
   width: 155px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid black;
 }
 
 .menu {
@@ -39,12 +40,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.blog {
-  padding-right: 10px;
+.sizeblog {
+  padding: 10px 10px 13px 10px;
+  text-decoration: none;
+  color: #4a4a4a;
 }
-.contact {
-  padding-left: 10px;
+.sizecontact {
+  padding: 10px 10px 13px 10px;
+  text-decoration: none;
+  color: #4a4a4a;
 }
+
 .container2 {
   background-color: #3cdbc0;
   font-size: 30px;
@@ -77,20 +83,25 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .blog {
-  }
-  .sizeblog {
-    padding-right: 10px;
-    padding: 6px;
-    text-decoration: none;
-  }
-  .sizecontact {
-    padding-left: 10px;
-    padding: 6px;
-    text-decoration: none;
+    padding: 0px;
   }
   .contact {
+    padding: 0px;
   }
+
+  .sizeblog {
+    padding: 15px 10px 15px 15px;
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+  .sizecontact {
+    padding: 15px 15px 15px 10px;
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
   .container1 {
     flex-direction: row;
     justify-content: space-between;
